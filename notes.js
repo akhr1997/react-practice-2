@@ -4,5 +4,6 @@
  *      props
  *      component composition
  *      children prop
- *      onClick EventListener
+ *      custom onClick EventListener
+ *      useState()
  */
