@@ -1,9 +1,9 @@
 import React from "react";
 
-const TabeButton = (props) => {
+const TabeButton = ({ children, onClick }) => {
   return (
     <li>
-      <button>{props.children}</button>
+      <button onClick={onClick}>{children}</button>
     </li>
   );
 };

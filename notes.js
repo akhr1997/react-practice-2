@@ -4,4 +4,5 @@
  *      props
  *      component composition
  *      children prop
+ *      onClick EventListener
  */
