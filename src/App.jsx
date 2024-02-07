@@ -1,5 +1,6 @@
 import ConceptCard from "./components/ConceptCard";
 import { Header } from "./components/Header";
+import TabeButton from "./components/TabeButton";
 import { CORE_CONCEPTS } from "./data";
 
 function App() {
@@ -22,6 +23,15 @@ function App() {
               );
             })}
           </ul>
+        </section>
+        <section id="examples">
+          <h2>Examples</h2>
+          <menu>
+            <TabeButton>Components</TabeButton>
+            <TabeButton>JSX</TabeButton>
+            <TabeButton>props</TabeButton>
+            <TabeButton>state</TabeButton>
+          </menu>
         </section>
       </main>
     </div>
